@@ -19,6 +19,16 @@ MIS_Project1/
 - Node.js (v18 or above recommended)
 - npm
 
+
+Create a .env file in server folder 
+SUPABASE_URL=url
+SUPABASE_SERVICE_ROLE_KEY=key
+SUPABASE_ANON_KEY=key
+PORT=5000
+
+.env folder in mis-pwa:
+VITE_API_URL=http://localhost:5000
+
 ### 1. Install Dependencies
 
 #### Frontend
@@ -63,11 +73,3 @@ npm start
 This project is for educational and internal use.
 
 
-Create a .env file in server folder 
-SUPABASE_URL=url
-SUPABASE_SERVICE_ROLE_KEY=key
-SUPABASE_ANON_KEY=key
-PORT=5000
-
-.env folder in mis-pwa:
-VITE_API_URL=http://localhost:5000
