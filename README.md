@@ -8,7 +8,6 @@ This repository contains a full-stack Maintenance Information System (MIS) proje
 MIS_Project1/
 ├── mis-pwa/        # Frontend (React, Vite, Tailwind)
 ├── server/         # Backend (Node.js, Express)
-├── db/             # Database schema
 ├── MIS_SRS.pdf     # System Requirements Specification
 ├── SRS.ini         # Configuration file
 ```
